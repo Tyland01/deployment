@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+#center-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    width:50vw;
+    position: absolute;
+}
+
+#register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+#container{
+    position: relative;
+}
+
+button{
+    width: 30vw;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: helvetica;
+    border: 0;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+h2, p, label{
+    font-family: Helvetica;
+}
+label{
+    font-size: small;
+}
+
+p{
+    text-align: center;
+    font-size: small;
+}
